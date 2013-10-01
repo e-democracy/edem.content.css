@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  xmlns:five="http://namespaces.zope.org/five">
+
+    
+  <browser:resource
+    name="site-20110714.css" 
+    file="browser/css/site.css" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemSkin" 
+    permission="zope2.Public"/>
+  <browser:resource
+    name="site-20110308.css" 
+    file="browser/css/site.css" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemSkin" 
+    permission="zope2.Public"/>
+  <browser:resource
+    name="site-20110406.css" 
+    file="browser/css/site.css" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemSkin" 
+    permission="zope2.Public"/>
+  <!--Ancient URL for the Blog and Wiki -->
+  <browser:resource
+    name="site-20101213.css" 
+    file="browser/css/site.css" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemSkin" 
+    permission="zope2.Public"/>
+
+  <!--Ancient **GLOBAL** CSS for the Blog and Wiki -->
+  <browser:resource
+    name="globalstyle-20101213.css" 
+    file="browser/css/globalstyle.css" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemSkin" 
+    permission="zope2.Public"/>
+</configure>
+
